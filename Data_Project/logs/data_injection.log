@@ -1,0 +1,9 @@
+2024-07-23 18:05:39,452 - root - INFO - Connected to c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\data\db_files\covid_19_db.duckdb successfully.
+2024-07-23 18:05:39,484 - root - INFO - Table Country_wise created successfully from c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\data\output\Country_wise.parquet.
+2024-07-23 18:05:39,519 - root - INFO - Table covid_19_clean created successfully from c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\data\output\covid_19_clean.parquet.
+2024-07-23 18:05:39,539 - root - INFO - Table day_wise created successfully from c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\data\output\day_wise.parquet.
+2024-07-23 18:05:39,616 - root - INFO - Table full_grouped created successfully from c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\data\output\full_grouped.parquet.
+2024-07-23 18:05:40,325 - root - INFO - Table usa_county_wise created successfully from c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\data\output\usa_county_wise.parquet.
+2024-07-23 18:05:40,340 - root - INFO - Table worldometer created successfully from c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\data\output\worldometer.parquet.
+2024-07-23 18:05:40,399 - root - INFO - Tables in the database: [('Country_wise',), ('covid_19_clean',), ('day_wise',), ('full_grouped',), ('usa_county_wise',), ('worldometer',)]
+2024-07-23 18:05:40,432 - root - INFO - Database connection closed.

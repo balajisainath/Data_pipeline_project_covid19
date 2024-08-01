@@ -1,0 +1,22 @@
+2024-07-18 15:35:21,237 - root - INFO - Starting Country_wise_eda function
+2024-07-18 15:35:21,247 - root - INFO - dimensions : (187, 15)
+2024-07-18 15:35:21,278 - root - INFO - Çountry_wise data:   Country/Region  Confirmed  Deaths  Recovered  Active  ...  Deaths / 100 Recovered  Confirmed last week  1 week change  1 week % increase             WHO Region
+0    Afghanistan      36263    1269      25198    9796  ...                    5.04                35526            737               2.07  Eastern Mediterranean
+1        Albania       4880     144       2745    1991  ...                    5.25                 4171            709              17.00                 Europe
+2        Algeria      27973    1163      18837    7973  ...                    6.17                23691           4282              18.07                 Africa
+3        Andorra        907      52        803      52  ...                    6.48                  884             23               2.60                 Europe
+
+[4 rows x 15 columns]
+2024-07-18 15:35:21,329 - root - INFO - columns of the country_wise data: Index(['Country/Region', 'Confirmed', 'Deaths', 'Recovered', 'Active',
+       'New cases', 'New deaths', 'New recovered', 'Deaths / 100 Cases',
+       'Recovered / 100 Cases', 'Deaths / 100 Recovered',
+       'Confirmed last week', '1 week change', '1 week % increase',
+       'WHO Region'],
+      dtype='object')
+2024-07-18 15:35:21,329 - root - INFO - changing the column names to the approprite terms
+2024-07-18 15:35:21,338 - root - INFO - Column names changed successfully Index(['country_region', 'confirmed', 'deaths', 'recovered', 'active',
+       'new_cases', 'new_deaths', 'new_recovered', 'deaths_per_100_cases',
+       'recovered_per_100_cases', 'deaths_per_100_recovered',
+       'confirmed_last_week', 'one_week_change', 'one_week_percent_increase',
+       'who_region'],
+      dtype='object')

@@ -1,0 +1,29 @@
+[build-system]
+requires=["setuptools","setuptools-scm"]
+build-backend="setuptools.build_meta"
+
+[project]
+name = "data_analysis_project"
+version = "0.1.0"
+description = "A project for analyzing COVID-19 data"
+dependencies = [
+    "pandas",
+    "pyarrow",
+    "logging",
+    "great_expectations",
+    "duckdb",
+    "pytest",
+    "boto3",
+    "python_dotenv"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[project.scripts]
+analyze = "src.__main__:main"
+
+
+

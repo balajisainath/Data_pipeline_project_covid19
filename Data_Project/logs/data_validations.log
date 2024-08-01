@@ -1,0 +1,924 @@
+2024-07-22 13:43:30,766 - root - INFO - Starting the main function
+2024-07-22 13:43:32,249 - root - INFO - Reading the data country_wise is successful
+2024-07-22 13:43:32,249 - root - INFO - Starting Country_wise Data analysis
+2024-07-22 13:43:32,249 - root - INFO - Dimensions of data: (187, 15)
+2024-07-22 13:43:32,249 - root - INFO - Changing the column names to the appropriate terms
+2024-07-22 13:43:32,249 - root - INFO - Column names changed successfully
+2024-07-22 13:43:32,249 - root - INFO - Checking for null values in the data
+2024-07-22 13:43:32,261 - root - INFO - No null values found, processing further...
+2024-07-22 13:43:32,264 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-22 13:43:32,271 - root - INFO - Column "confirmed" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,272 - root - INFO - Column "confirmed" converted to numeric type.
+2024-07-22 13:43:32,272 - root - INFO - Column "deaths" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,280 - root - INFO - Column "deaths" converted to numeric type.
+2024-07-22 13:43:32,280 - root - INFO - Column "recovered" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,280 - root - INFO - Column "recovered" converted to numeric type.
+2024-07-22 13:43:32,280 - root - INFO - Column "active" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,288 - root - INFO - Column "active" converted to numeric type.
+2024-07-22 13:43:32,293 - root - INFO - Column "new_cases" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,293 - root - INFO - Column "new_cases" converted to numeric type.
+2024-07-22 13:43:32,293 - root - INFO - Column "new_deaths" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,293 - root - INFO - Column "new_deaths" converted to numeric type.
+2024-07-22 13:43:32,301 - root - INFO - Column "new_recovered" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,301 - root - INFO - Column "new_recovered" converted to numeric type.
+2024-07-22 13:43:32,308 - root - INFO - Column "confirmed_last_week" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,308 - root - INFO - Column "confirmed_last_week" converted to numeric type.
+2024-07-22 13:43:32,316 - root - INFO - Column "one_week_change" has incorrect type. Attempting to convert.
+2024-07-22 13:43:32,316 - root - INFO - Column "one_week_change" converted to numeric type.
+2024-07-22 13:43:32,316 - root - INFO - Updated DataFrame with converted column types.
+2024-07-22 13:43:32,326 - great_expectations.data_asset.data_asset - INFO - 	0 expectation(s) included in expectation_suite.
+2024-07-22 13:43:32,326 - root - INFO - {
+  "success": true,
+  "results": [],
+  "evaluation_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 0,
+    "successful_expectations": 0,
+    "unsuccessful_expectations": 0,
+    "success_percent": null
+  },
+  "meta": {
+    "great_expectations_version": "0.18.19",
+    "expectation_suite_name": "default",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2024-07-22T13:43:32.325134+05:30"
+    },
+    "batch_kwargs": {
+      "ge_batch_id": "48f8b9d4-4802-11ef-b8f4-401c83d1a12c"
+    },
+    "batch_markers": {},
+    "batch_parameters": {},
+    "validation_time": "20240722T081332.325134Z",
+    "expectation_suite_meta": {
+      "great_expectations_version": "0.18.19"
+    }
+  }
+}
+2024-07-22 13:43:32,334 - root - INFO - checking for negative values which are not needed
+2024-07-22 13:43:32,342 - root - ERROR - Error in country_wise_eda: Validate.column_values_negative() missing 1 required positional argument: 'Columns'
+2024-07-22 13:43:32,343 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-22 13:43:32,343 - root - INFO - Data processing for covid_19_clean is not defined in the main function
+2024-07-22 13:43:32,343 - root - INFO - Reading the data day_wise is successful
+2024-07-22 13:43:32,351 - root - INFO - Data processing for day_wise is not defined in the main function
+2024-07-22 13:43:32,351 - root - INFO - Reading the data full_grouped is successful
+2024-07-22 13:43:32,351 - root - INFO - Data processing for full_grouped is not defined in the main function
+2024-07-22 13:43:32,351 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-22 13:43:32,351 - root - INFO - Data processing for usa_county_wise is not defined in the main function
+2024-07-22 13:43:32,351 - root - INFO - Reading the data worldometer is successful
+2024-07-22 13:43:32,360 - root - INFO - Data processing for worldometer is not defined in the main function
+2024-07-22 13:47:19,065 - root - INFO - Starting the main function
+2024-07-22 13:47:20,321 - root - INFO - Reading the data country_wise is successful
+2024-07-22 13:47:20,321 - root - INFO - Starting Country_wise Data analysis
+2024-07-22 13:47:20,349 - root - INFO - Dimensions of data: (187, 15)
+2024-07-22 13:47:20,354 - root - INFO - Changing the column names to the appropriate terms
+2024-07-22 13:47:20,354 - root - INFO - Column names changed successfully
+2024-07-22 13:47:20,360 - root - INFO - Checking for null values in the data
+2024-07-22 13:47:20,360 - root - INFO - No null values found, processing further...
+2024-07-22 13:47:20,368 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-22 13:47:20,376 - root - INFO - Column "confirmed" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,376 - root - INFO - Column "confirmed" converted to numeric type.
+2024-07-22 13:47:20,382 - root - INFO - Column "deaths" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,382 - root - INFO - Column "deaths" converted to numeric type.
+2024-07-22 13:47:20,394 - root - INFO - Column "recovered" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,396 - root - INFO - Column "recovered" converted to numeric type.
+2024-07-22 13:47:20,404 - root - INFO - Column "active" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,404 - root - INFO - Column "active" converted to numeric type.
+2024-07-22 13:47:20,411 - root - INFO - Column "new_cases" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,419 - root - INFO - Column "new_cases" converted to numeric type.
+2024-07-22 13:47:20,419 - root - INFO - Column "new_deaths" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,428 - root - INFO - Column "new_deaths" converted to numeric type.
+2024-07-22 13:47:20,429 - root - INFO - Column "new_recovered" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,437 - root - INFO - Column "new_recovered" converted to numeric type.
+2024-07-22 13:47:20,445 - root - INFO - Column "confirmed_last_week" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,449 - root - INFO - Column "confirmed_last_week" converted to numeric type.
+2024-07-22 13:47:20,449 - root - INFO - Column "one_week_change" has incorrect type. Attempting to convert.
+2024-07-22 13:47:20,449 - root - INFO - Column "one_week_change" converted to numeric type.
+2024-07-22 13:47:20,462 - root - INFO - Updated DataFrame with converted column types.
+2024-07-22 13:47:20,470 - great_expectations.data_asset.data_asset - INFO - 	0 expectation(s) included in expectation_suite.
+2024-07-22 13:47:20,470 - root - INFO - {
+  "success": true,
+  "results": [],
+  "evaluation_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 0,
+    "successful_expectations": 0,
+    "unsuccessful_expectations": 0,
+    "success_percent": null
+  },
+  "meta": {
+    "great_expectations_version": "0.18.19",
+    "expectation_suite_name": "default",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2024-07-22T13:47:20.462179+05:30"
+    },
+    "batch_kwargs": {
+      "ge_batch_id": "d0f4ede6-4802-11ef-88d1-401c83d1a12c"
+    },
+    "batch_markers": {},
+    "batch_parameters": {},
+    "validation_time": "20240722T081720.462179Z",
+    "expectation_suite_meta": {
+      "great_expectations_version": "0.18.19"
+    }
+  }
+}
+2024-07-22 13:47:20,482 - root - INFO - checking for negative values which are not needed
+2024-07-22 13:47:20,490 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-22 13:47:20,490 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-22 13:47:20,499 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-22 13:47:20,728 - root - INFO - Converted to Parquet at data
+2024-07-22 13:47:20,743 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-22 13:47:20,743 - root - INFO - Data processing for covid_19_clean is not defined in the main function
+2024-07-22 13:47:20,743 - root - INFO - Reading the data day_wise is successful
+2024-07-22 13:47:20,743 - root - INFO - Data processing for day_wise is not defined in the main function
+2024-07-22 13:47:20,749 - root - INFO - Reading the data full_grouped is successful
+2024-07-22 13:47:20,750 - root - INFO - Data processing for full_grouped is not defined in the main function
+2024-07-22 13:47:20,752 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-22 13:47:20,752 - root - INFO - Data processing for usa_county_wise is not defined in the main function
+2024-07-22 13:47:20,752 - root - INFO - Reading the data worldometer is successful
+2024-07-22 13:47:20,752 - root - INFO - Data processing for worldometer is not defined in the main function
+2024-07-23 11:40:54,903 - root - INFO - Starting the main function
+2024-07-23 11:40:56,455 - root - INFO - Reading the data country_wise is successful
+2024-07-23 11:40:56,455 - root - INFO - Starting Country_wise Data analysis
+2024-07-23 11:40:56,485 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 11:40:56,485 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 11:40:56,488 - root - INFO - Column names changed successfully
+2024-07-23 11:40:56,488 - root - INFO - Checking for null values in the data
+2024-07-23 11:40:56,499 - root - INFO - No null values found, processing further...
+2024-07-23 11:40:56,504 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 11:40:56,504 - root - INFO - Column "confirmed" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,512 - root - INFO - Column "confirmed" converted to numeric type.
+2024-07-23 11:40:56,517 - root - INFO - Column "deaths" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,522 - root - INFO - Column "deaths" converted to numeric type.
+2024-07-23 11:40:56,522 - root - INFO - Column "recovered" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,530 - root - INFO - Column "recovered" converted to numeric type.
+2024-07-23 11:40:56,530 - root - INFO - Column "active" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,535 - root - INFO - Column "active" converted to numeric type.
+2024-07-23 11:40:56,543 - root - INFO - Column "new_cases" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,543 - root - INFO - Column "new_cases" converted to numeric type.
+2024-07-23 11:40:56,551 - root - INFO - Column "new_deaths" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,553 - root - INFO - Column "new_deaths" converted to numeric type.
+2024-07-23 11:40:56,553 - root - INFO - Column "new_recovered" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,561 - root - INFO - Column "new_recovered" converted to numeric type.
+2024-07-23 11:40:56,571 - root - INFO - Column "confirmed_last_week" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,571 - root - INFO - Column "confirmed_last_week" converted to numeric type.
+2024-07-23 11:40:56,579 - root - INFO - Column "one_week_change" has incorrect type. Attempting to convert.
+2024-07-23 11:40:56,579 - root - INFO - Column "one_week_change" converted to numeric type.
+2024-07-23 11:40:56,590 - root - INFO - Updated DataFrame with converted column types.
+2024-07-23 11:40:56,590 - great_expectations.data_asset.data_asset - INFO - 	0 expectation(s) included in expectation_suite.
+2024-07-23 11:40:56,590 - root - INFO - {
+  "success": true,
+  "results": [],
+  "evaluation_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 0,
+    "successful_expectations": 0,
+    "unsuccessful_expectations": 0,
+    "success_percent": null
+  },
+  "meta": {
+    "great_expectations_version": "0.18.19",
+    "expectation_suite_name": "default",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2024-07-23T11:40:56.590927+05:30"
+    },
+    "batch_kwargs": {
+      "ge_batch_id": "5307c31c-48ba-11ef-979b-401c83d1a12c"
+    },
+    "batch_markers": {},
+    "batch_parameters": {},
+    "validation_time": "20240723T061056.590927Z",
+    "expectation_suite_meta": {
+      "great_expectations_version": "0.18.19"
+    }
+  }
+}
+2024-07-23 11:40:56,604 - root - INFO - checking for negative values which are not needed
+2024-07-23 11:40:56,612 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 11:40:56,612 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 11:40:56,622 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 11:40:56,622 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 11:40:56,737 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 11:40:56,738 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 11:40:56,772 - root - INFO - Starting Covid_19_clean Eda analysis
+2024-07-23 11:40:56,772 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 11:40:56,780 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 11:40:56,780 - root - INFO - Column names changed successfully
+2024-07-23 11:40:56,780 - root - INFO - Checking for null values in the data
+2024-07-23 11:40:56,787 - root - INFO - No null values found, processing further...
+2024-07-23 11:40:56,795 - root - INFO - checking for negative values which are not needed
+2024-07-23 11:40:56,795 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 11:40:56,845 - root - INFO - Converted covid_19_clean to Parquet at output
+2024-07-23 11:40:56,849 - root - INFO - Reading the data day_wise is successful
+2024-07-23 11:40:56,849 - root - INFO - Data processing for day_wise is not defined in the main function
+2024-07-23 11:40:56,849 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 11:40:56,849 - root - INFO - Data processing for full_grouped is not defined in the main function
+2024-07-23 11:40:56,854 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 11:40:56,854 - root - INFO - Data processing for usa_county_wise is not defined in the main function
+2024-07-23 11:40:56,854 - root - INFO - Reading the data worldometer is successful
+2024-07-23 11:40:56,854 - root - INFO - Data processing for worldometer is not defined in the main function
+2024-07-23 12:09:05,845 - root - INFO - Starting the main function
+2024-07-23 12:09:07,423 - root - INFO - Reading the data country_wise is successful
+2024-07-23 12:09:07,423 - root - INFO - Starting Country_wise Data analysis
+2024-07-23 12:09:07,423 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 12:09:07,423 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 12:09:07,433 - root - INFO - Column names changed successfully
+2024-07-23 12:09:07,436 - root - INFO - Checking for null values in the data
+2024-07-23 12:09:07,442 - root - INFO - No null values found, processing further...
+2024-07-23 12:09:07,442 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 12:09:07,449 - root - INFO - Column "confirmed" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,451 - root - INFO - Column "confirmed" converted to numeric type.
+2024-07-23 12:09:07,452 - root - INFO - Column "deaths" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,452 - root - INFO - Column "deaths" converted to numeric type.
+2024-07-23 12:09:07,460 - root - INFO - Column "recovered" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,460 - root - INFO - Column "recovered" converted to numeric type.
+2024-07-23 12:09:07,471 - root - INFO - Column "active" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,472 - root - INFO - Column "active" converted to numeric type.
+2024-07-23 12:09:07,480 - root - INFO - Column "new_cases" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,480 - root - INFO - Column "new_cases" converted to numeric type.
+2024-07-23 12:09:07,488 - root - INFO - Column "new_deaths" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,489 - root - INFO - Column "new_deaths" converted to numeric type.
+2024-07-23 12:09:07,497 - root - INFO - Column "new_recovered" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,497 - root - INFO - Column "new_recovered" converted to numeric type.
+2024-07-23 12:09:07,506 - root - INFO - Column "confirmed_last_week" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,506 - root - INFO - Column "confirmed_last_week" converted to numeric type.
+2024-07-23 12:09:07,514 - root - INFO - Column "one_week_change" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,520 - root - INFO - Column "one_week_change" converted to numeric type.
+2024-07-23 12:09:07,529 - root - INFO - Updated DataFrame with converted column types.
+2024-07-23 12:09:07,529 - great_expectations.data_asset.data_asset - INFO - 	0 expectation(s) included in expectation_suite.
+2024-07-23 12:09:07,536 - root - INFO - {
+  "success": true,
+  "results": [],
+  "evaluation_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 0,
+    "successful_expectations": 0,
+    "unsuccessful_expectations": 0,
+    "success_percent": null
+  },
+  "meta": {
+    "great_expectations_version": "0.18.19",
+    "expectation_suite_name": "default",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2024-07-23T12:09:07.529267+05:30"
+    },
+    "batch_kwargs": {
+      "ge_batch_id": "42e87a02-48be-11ef-a3fb-401c83d1a12c"
+    },
+    "batch_markers": {},
+    "batch_parameters": {},
+    "validation_time": "20240723T063907.529267Z",
+    "expectation_suite_meta": {
+      "great_expectations_version": "0.18.19"
+    }
+  }
+}
+2024-07-23 12:09:07,549 - root - INFO - checking for negative values which are not needed
+2024-07-23 12:09:07,549 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 12:09:07,557 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 12:09:07,557 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 12:09:07,565 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 12:09:07,658 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 12:09:07,658 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 12:09:07,692 - root - INFO - Starting Covid_19_clean Eda analysis
+2024-07-23 12:09:07,692 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 12:09:07,692 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 12:09:07,708 - root - INFO - Column names changed successfully
+2024-07-23 12:09:07,708 - root - INFO - Checking for null values in the data
+2024-07-23 12:09:07,715 - root - INFO - No null values found, processing further...
+2024-07-23 12:09:07,715 - root - INFO - checking for the uniformity of data types of the columns
+2024-07-23 12:09:07,725 - root - INFO - Column "province_state" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,725 - root - INFO - Column "province_state" converted to numeric type.
+2024-07-23 12:09:07,725 - root - INFO - Column "country_region" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,739 - root - INFO - Column "country_region" converted to numeric type.
+2024-07-23 12:09:07,742 - root - INFO - Column "lat" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,742 - root - INFO - Column "lat" converted to numeric type.
+2024-07-23 12:09:07,742 - root - INFO - Column "long" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,754 - root - INFO - Column "long" converted to numeric type.
+2024-07-23 12:09:07,759 - root - INFO - Column "Date" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,759 - root - INFO - Column "Date" converted to numeric type.
+2024-07-23 12:09:07,759 - root - INFO - Column "confirmed" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,771 - root - INFO - Column "confirmed" converted to numeric type.
+2024-07-23 12:09:07,775 - root - INFO - Column "deaths" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,775 - root - INFO - Column "deaths" converted to numeric type.
+2024-07-23 12:09:07,775 - root - INFO - Column "recovered" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,775 - root - INFO - Column "recovered" converted to numeric type.
+2024-07-23 12:09:07,792 - root - INFO - Column "active" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,792 - root - INFO - Column "active" converted to numeric type.
+2024-07-23 12:09:07,792 - root - INFO - Column "who_region" has incorrect type. Attempting to convert.
+2024-07-23 12:09:07,792 - root - INFO - Column "who_region" converted to numeric type.
+2024-07-23 12:09:07,808 - root - INFO - Updated DataFrame with converted column types.
+2024-07-23 12:09:07,808 - great_expectations.data_asset.data_asset - INFO - 	0 expectation(s) included in expectation_suite.
+2024-07-23 12:09:07,808 - root - INFO - {
+  "success": true,
+  "results": [],
+  "evaluation_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 0,
+    "successful_expectations": 0,
+    "unsuccessful_expectations": 0,
+    "success_percent": null
+  },
+  "meta": {
+    "great_expectations_version": "0.18.19",
+    "expectation_suite_name": "default",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2024-07-23T12:09:07.808625+05:30"
+    },
+    "batch_kwargs": {
+      "ge_batch_id": "4312db9e-48be-11ef-858f-401c83d1a12c"
+    },
+    "batch_markers": {},
+    "batch_parameters": {},
+    "validation_time": "20240723T063907.808625Z",
+    "expectation_suite_meta": {
+      "great_expectations_version": "0.18.19"
+    }
+  }
+}
+2024-07-23 12:09:07,825 - root - ERROR - Error in the Covid_19_clean_eda: module 'logging' has no attribute 'infp'
+2024-07-23 12:09:07,825 - root - INFO - Reading the data day_wise is successful
+2024-07-23 12:09:07,825 - root - INFO - Data processing for day_wise is not defined in the main function
+2024-07-23 12:09:07,825 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 12:09:07,825 - root - INFO - Data processing for full_grouped is not defined in the main function
+2024-07-23 12:09:07,837 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 12:09:07,837 - root - INFO - Data processing for usa_county_wise is not defined in the main function
+2024-07-23 12:09:07,842 - root - INFO - Reading the data worldometer is successful
+2024-07-23 12:09:07,842 - root - INFO - Data processing for worldometer is not defined in the main function
+2024-07-23 12:18:14,107 - root - INFO - Starting the main function
+2024-07-23 12:18:15,658 - root - INFO - Reading the data country_wise is successful
+2024-07-23 12:18:15,658 - root - INFO - Starting Country_wise Data analysis
+2024-07-23 12:18:15,667 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 12:18:15,691 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 12:18:15,691 - root - INFO - Column names changed successfully
+2024-07-23 12:18:15,691 - root - INFO - Checking for null values in the data
+2024-07-23 12:18:15,699 - root - INFO - No null values found, processing further...
+2024-07-23 12:18:15,699 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 12:18:15,699 - root - INFO - checking for negative values which are not needed
+2024-07-23 12:18:15,699 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 12:18:15,709 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 12:18:15,709 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 12:18:15,709 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 12:18:15,814 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 12:18:15,814 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 12:18:15,866 - root - INFO - Starting Covid_19_clean Eda analysis
+2024-07-23 12:18:15,867 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 12:18:15,868 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 12:18:15,868 - root - INFO - Column names changed successfully
+2024-07-23 12:18:15,868 - root - INFO - Checking for null values in the data
+2024-07-23 12:18:15,876 - root - INFO - No null values found, processing further...
+2024-07-23 12:18:15,876 - root - INFO - checking for negative values which are not needed
+2024-07-23 12:18:15,884 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 12:18:15,884 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 12:18:15,926 - root - INFO - Converted covid_19_clean to Parquet at output
+2024-07-23 12:18:15,926 - root - INFO - Reading the data day_wise is successful
+2024-07-23 12:18:15,926 - root - INFO - Data processing for day_wise is not defined in the main function
+2024-07-23 12:18:15,941 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 12:18:15,941 - root - INFO - Data processing for full_grouped is not defined in the main function
+2024-07-23 12:18:15,941 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 12:18:15,941 - root - INFO - Data processing for usa_county_wise is not defined in the main function
+2024-07-23 12:18:15,952 - root - INFO - Reading the data worldometer is successful
+2024-07-23 12:18:15,954 - root - INFO - Data processing for worldometer is not defined in the main function
+2024-07-23 13:38:49,945 - root - INFO - Starting the main function
+2024-07-23 13:38:51,331 - root - INFO - Reading the data country_wise is successful
+2024-07-23 13:38:51,331 - root - INFO - Starting Country_wise Data analysis
+2024-07-23 13:38:51,362 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 13:38:51,363 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:38:51,365 - root - INFO - Column names changed successfully
+2024-07-23 13:38:51,369 - root - INFO - Checking for null values in the data
+2024-07-23 13:38:51,371 - root - INFO - No null values found, processing further...
+2024-07-23 13:38:51,371 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 13:38:51,381 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:38:51,383 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 13:38:51,391 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 13:38:51,391 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:38:51,400 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:38:51,504 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 13:38:51,504 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 13:38:51,523 - root - INFO - Starting Covid_19_clean Eda analysis
+2024-07-23 13:38:51,523 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 13:38:51,523 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:38:51,523 - root - INFO - Column names changed successfully
+2024-07-23 13:38:51,523 - root - INFO - Checking for null values in the data
+2024-07-23 13:38:51,523 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:106: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df['province_state'].fillna('Unknown', inplace=True)
+
+2024-07-23 13:38:51,540 - root - INFO - No null values found, processing further...
+2024-07-23 13:38:51,549 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:38:51,551 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:38:51,551 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:38:51,612 - root - INFO - Converted covid_19_clean to Parquet at output
+2024-07-23 13:38:51,612 - root - INFO - Reading the data day_wise is successful
+2024-07-23 13:38:51,612 - root - INFO - Starting day_wise Eda analysis
+2024-07-23 13:38:51,612 - root - INFO - Dimensions of data: (188, 12)
+2024-07-23 13:38:51,620 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:38:51,623 - root - INFO - Column names changed successfully
+2024-07-23 13:38:51,624 - root - INFO - Checking for null values in the data
+2024-07-23 13:38:51,627 - root - INFO - No null values found, processing further...
+2024-07-23 13:38:51,627 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:38:51,636 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:38:51,672 - root - INFO - Converted day_wise to Parquet at output
+2024-07-23 13:38:51,672 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 13:38:51,679 - root - INFO - Starting full_grouped Eda analysis
+2024-07-23 13:38:51,680 - root - INFO - Dimensions of data: (35156, 10)
+2024-07-23 13:38:51,681 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:38:51,687 - root - INFO - Column names changed successfully
+2024-07-23 13:38:51,689 - root - INFO - Checking for null values in the data
+2024-07-23 13:38:51,705 - root - INFO - No null values found, processing further...
+2024-07-23 13:38:51,705 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:38:51,716 - root - INFO - Found negative values in column 'active'. Setting those values to zero.
+2024-07-23 13:38:51,724 - root - INFO - Found negative values in column 'new_deaths'. Setting those values to zero.
+2024-07-23 13:38:51,724 - root - INFO - Found negative values in column 'new_recovered'. Setting those values to zero.
+2024-07-23 13:38:51,724 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:38:51,853 - root - INFO - Converted full_grouped to Parquet at output
+2024-07-23 13:38:51,853 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 13:38:51,853 - root - INFO - Starting usa_county_wise Eda analysis
+2024-07-23 13:38:51,853 - root - INFO - Dimensions of data: (627920, 14)
+2024-07-23 13:38:51,861 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:38:51,861 - root - INFO - Column names changed successfully
+2024-07-23 13:38:51,861 - root - INFO - Checking for null values in the data
+2024-07-23 13:38:51,865 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:245: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df['fips'].fillna(0,inplace=True)
+
+2024-07-23 13:38:51,874 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:246: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df['admin2'].fillna('Unknown',inplace=True)
+
+2024-07-23 13:38:52,240 - root - INFO - No null values found, processing further...
+2024-07-23 13:38:52,240 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:38:52,272 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:38:53,456 - root - INFO - Converted usa_county_wise to Parquet at output
+2024-07-23 13:38:53,456 - root - INFO - Reading the data worldometer is successful
+2024-07-23 13:38:53,456 - root - INFO - Starting worldometer Eda analysis
+2024-07-23 13:38:53,456 - root - INFO - Dimensions of data: (209, 16)
+2024-07-23 13:38:53,456 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:38:53,464 - root - INFO - Column names changed successfully
+2024-07-23 13:38:53,464 - root - INFO - Checking for null values in the data
+2024-07-23 13:38:53,470 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_validations.py:25: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data_frame[column].fillna(fill_value, inplace=True)
+
+2024-07-23 13:38:53,488 - root - INFO - Null values found in ['serios_critical'], processing the null values
+2024-07-23 13:38:53,488 - root - ERROR - Error in the worldometer_eda(): unhashable type: 'list'
+2024-07-23 13:51:28,080 - root - INFO - Starting the main function
+2024-07-23 13:51:29,459 - root - INFO - Reading the data country_wise is successful
+2024-07-23 13:51:29,461 - root - INFO - ==============Starting Country_wise Data analysis==============
+2024-07-23 13:51:29,461 - root - INFO - 
+2024-07-23 13:51:29,483 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 13:51:29,483 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:51:29,486 - root - INFO - Column names changed successfully
+2024-07-23 13:51:29,492 - root - INFO - Checking for null values in the data
+2024-07-23 13:51:29,500 - root - INFO - No null values found, processing further...
+2024-07-23 13:51:29,502 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 13:51:29,504 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:51:29,506 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 13:51:29,513 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 13:51:29,515 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:51:29,516 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:51:29,637 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 13:51:29,638 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 13:51:29,687 - root - INFO - ==============Starting Covid_19_clean Eda analysis==============
+2024-07-23 13:51:29,690 - root - INFO - 
+2024-07-23 13:51:29,692 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 13:51:29,694 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:51:29,698 - root - INFO - Column names changed successfully
+2024-07-23 13:51:29,699 - root - INFO - Checking for null values in the data
+2024-07-23 13:51:29,704 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:108: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df=df['province_state'].fillna('Unknown', inplace=True)
+
+2024-07-23 13:51:29,711 - root - ERROR - Error in the Covid_19_clean_eda: 'NoneType' object has no attribute 'isnull'
+2024-07-23 13:51:29,712 - root - INFO - Reading the data day_wise is successful
+2024-07-23 13:51:29,713 - root - INFO - ==============Starting day_wise Eda analysis==============
+2024-07-23 13:51:29,715 - root - INFO - 
+2024-07-23 13:51:29,716 - root - INFO - Dimensions of data: (188, 12)
+2024-07-23 13:51:29,717 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:51:29,719 - root - INFO - Column names changed successfully
+2024-07-23 13:51:29,720 - root - INFO - Checking for null values in the data
+2024-07-23 13:51:29,731 - root - INFO - No null values found, processing further...
+2024-07-23 13:51:29,732 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:51:29,739 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:51:29,743 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:51:29,783 - root - INFO - Converted day_wise to Parquet at output
+2024-07-23 13:51:29,784 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 13:51:29,785 - root - INFO - ==============Starting full_grouped Eda analysis==============
+2024-07-23 13:51:29,786 - root - INFO - 
+2024-07-23 13:51:29,787 - root - INFO - Dimensions of data: (35156, 10)
+2024-07-23 13:51:29,788 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:51:29,791 - root - INFO - Column names changed successfully
+2024-07-23 13:51:29,792 - root - INFO - Checking for null values in the data
+2024-07-23 13:51:29,809 - root - INFO - No null values found, processing further...
+2024-07-23 13:51:29,810 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:51:29,813 - root - INFO - Found negative values in column 'active'. Setting those values to zero.
+2024-07-23 13:51:29,817 - root - INFO - Found negative values in column 'new_deaths'. Setting those values to zero.
+2024-07-23 13:51:29,825 - root - INFO - Found negative values in column 'new_recovered'. Setting those values to zero.
+2024-07-23 13:51:29,828 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:51:29,829 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:51:29,962 - root - INFO - Converted full_grouped to Parquet at output
+2024-07-23 13:51:29,963 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 13:51:29,964 - root - INFO - ==============Starting usa_county_wise Eda analysis==============
+2024-07-23 13:51:29,965 - root - INFO - 
+2024-07-23 13:51:29,966 - root - INFO - Dimensions of data: (627920, 14)
+2024-07-23 13:51:29,968 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:51:29,969 - root - INFO - Column names changed successfully
+2024-07-23 13:51:29,970 - root - INFO - Checking for null values in the data
+2024-07-23 13:51:29,972 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:250: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df=df['fips'].fillna(0,inplace=True)
+
+2024-07-23 13:51:29,984 - root - ERROR - Error in the usa_county_wise_eda(): 'NoneType' object is not subscriptable
+2024-07-23 13:51:29,987 - root - INFO - Reading the data worldometer is successful
+2024-07-23 13:51:29,989 - root - INFO - ==============Starting worldometer Eda analysis==============
+2024-07-23 13:51:29,990 - root - INFO - 
+2024-07-23 13:51:29,992 - root - INFO - Dimensions of data: (209, 16)
+2024-07-23 13:51:29,993 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:51:29,997 - root - INFO - Column names changed successfully
+2024-07-23 13:51:29,998 - root - INFO - Checking for null values in the data
+2024-07-23 13:51:30,002 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_validations.py:25: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data_frame[column].fillna(fill_value, inplace=True)
+
+2024-07-23 13:51:30,021 - root - INFO - Null values found in ['serios_critical'], processing the null values
+2024-07-23 13:51:30,023 - root - ERROR - Error in the worldometer_eda(): unhashable type: 'list'
+2024-07-23 13:56:51,394 - root - INFO - Starting the main function
+2024-07-23 13:56:52,720 - root - INFO - Reading the data country_wise is successful
+2024-07-23 13:56:52,720 - root - INFO - ==============Starting Country_wise Data analysis==============
+2024-07-23 13:56:52,746 - root - INFO - 
+2024-07-23 13:56:52,750 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 13:56:52,750 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:56:52,750 - root - INFO - Column names changed successfully
+2024-07-23 13:56:52,758 - root - INFO - Checking for null values in the data
+2024-07-23 13:56:52,764 - root - INFO - No null values found, processing further...
+2024-07-23 13:56:52,764 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 13:56:52,771 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:56:52,776 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 13:56:52,780 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 13:56:52,780 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:56:52,780 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:56:52,876 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 13:56:52,876 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 13:56:52,924 - root - INFO - ==============Starting Covid_19_clean Eda analysis==============
+2024-07-23 13:56:52,929 - root - INFO - 
+2024-07-23 13:56:52,931 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 13:56:52,931 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:56:52,935 - root - INFO - Column names changed successfully
+2024-07-23 13:56:52,935 - root - INFO - Checking for null values in the data
+2024-07-23 13:56:52,939 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:108: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df=df['province_state'].fillna('Unknown', inplace=True)
+
+2024-07-23 13:56:52,939 - root - ERROR - Error in the Covid_19_clean_eda: 'NoneType' object has no attribute 'isnull'
+2024-07-23 13:56:52,945 - root - INFO - Reading the data day_wise is successful
+2024-07-23 13:56:52,947 - root - INFO - ==============Starting day_wise Eda analysis==============
+2024-07-23 13:56:52,948 - root - INFO - 
+2024-07-23 13:56:52,950 - root - INFO - Dimensions of data: (188, 12)
+2024-07-23 13:56:52,950 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:56:52,950 - root - INFO - Column names changed successfully
+2024-07-23 13:56:52,950 - root - INFO - Checking for null values in the data
+2024-07-23 13:56:52,954 - root - INFO - No null values found, processing further...
+2024-07-23 13:56:52,959 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:56:52,962 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:56:52,962 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:56:52,978 - root - INFO - Converted day_wise to Parquet at output
+2024-07-23 13:56:52,978 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 13:56:52,978 - root - INFO - ==============Starting full_grouped Eda analysis==============
+2024-07-23 13:56:52,996 - root - INFO - 
+2024-07-23 13:56:52,998 - root - INFO - Dimensions of data: (35156, 10)
+2024-07-23 13:56:53,001 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:56:53,004 - root - INFO - Column names changed successfully
+2024-07-23 13:56:53,004 - root - INFO - Checking for null values in the data
+2024-07-23 13:56:53,032 - root - INFO - No null values found, processing further...
+2024-07-23 13:56:53,034 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:56:53,035 - root - INFO - Found negative values in column 'active'. Setting those values to zero.
+2024-07-23 13:56:53,040 - root - INFO - Found negative values in column 'new_deaths'. Setting those values to zero.
+2024-07-23 13:56:53,044 - root - INFO - Found negative values in column 'new_recovered'. Setting those values to zero.
+2024-07-23 13:56:53,049 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:56:53,053 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:56:53,186 - root - INFO - Converted full_grouped to Parquet at output
+2024-07-23 13:56:53,186 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 13:56:53,186 - root - INFO - ==============Starting usa_county_wise Eda analysis==============
+2024-07-23 13:56:53,186 - root - INFO - 
+2024-07-23 13:56:53,186 - root - INFO - Dimensions of data: (627920, 14)
+2024-07-23 13:56:53,186 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:56:53,200 - root - INFO - Column names changed successfully
+2024-07-23 13:56:53,200 - root - INFO - Checking for null values in the data
+2024-07-23 13:56:53,200 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_validations.py:25: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data_frame[column].fillna(fill_value, inplace=True)
+
+2024-07-23 13:56:53,435 - root - INFO - No null values found, processing further...
+2024-07-23 13:56:53,435 - root - INFO - checking for negative values which are not needed
+2024-07-23 13:56:53,464 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 13:56:53,475 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 13:56:54,480 - root - INFO - Converted usa_county_wise to Parquet at output
+2024-07-23 13:56:54,488 - root - INFO - Reading the data worldometer is successful
+2024-07-23 13:56:54,488 - root - INFO - ==============Starting worldometer Eda analysis==============
+2024-07-23 13:56:54,490 - root - INFO - 
+2024-07-23 13:56:54,490 - root - INFO - Dimensions of data: (209, 16)
+2024-07-23 13:56:54,490 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 13:56:54,490 - root - INFO - Column names changed successfully
+2024-07-23 13:56:54,495 - root - INFO - Checking for null values in the data
+2024-07-23 13:56:54,506 - root - INFO - Null values found in ['serios_critical'], processing the null values
+2024-07-23 13:56:54,506 - root - ERROR - Error in the worldometer_eda(): unhashable type: 'list'
+2024-07-23 14:04:25,936 - root - INFO - Starting the main function
+2024-07-23 14:04:26,618 - root - INFO - Reading the data country_wise is successful
+2024-07-23 14:04:26,620 - root - INFO - ==============Starting Country_wise Data analysis==============
+2024-07-23 14:04:26,649 - root - INFO - 
+2024-07-23 14:04:26,659 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 14:04:26,659 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:04:26,665 - root - INFO - Column names changed successfully
+2024-07-23 14:04:26,670 - root - INFO - Checking for null values in the data
+2024-07-23 14:04:26,674 - root - INFO - No null values found, processing further...
+2024-07-23 14:04:26,676 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 14:04:26,679 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:04:26,684 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 14:04:26,685 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 14:04:26,690 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:04:26,694 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:04:26,745 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 14:04:26,746 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 14:04:26,762 - root - INFO - ==============Starting Covid_19_clean Eda analysis==============
+2024-07-23 14:04:26,763 - root - INFO - 
+2024-07-23 14:04:26,764 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 14:04:26,765 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:04:26,766 - root - INFO - Column names changed successfully
+2024-07-23 14:04:26,766 - root - INFO - Checking for null values in the data
+2024-07-23 14:04:26,767 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:108: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df=df['province_state'].fillna('Unknown', inplace=True)
+
+2024-07-23 14:04:26,771 - root - ERROR - Error in the Covid_19_clean_eda: 'NoneType' object has no attribute 'isnull'
+2024-07-23 14:04:26,771 - root - INFO - Reading the data day_wise is successful
+2024-07-23 14:04:26,772 - root - INFO - ==============Starting day_wise Eda analysis==============
+2024-07-23 14:04:26,772 - root - INFO - 
+2024-07-23 14:04:26,772 - root - INFO - Dimensions of data: (188, 12)
+2024-07-23 14:04:26,773 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:04:26,774 - root - INFO - Column names changed successfully
+2024-07-23 14:04:26,776 - root - INFO - Checking for null values in the data
+2024-07-23 14:04:26,779 - root - INFO - No null values found, processing further...
+2024-07-23 14:04:26,781 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:04:26,785 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:04:26,790 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:04:26,795 - root - INFO - Converted day_wise to Parquet at output
+2024-07-23 14:04:26,795 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 14:04:26,795 - root - INFO - ==============Starting full_grouped Eda analysis==============
+2024-07-23 14:04:26,795 - root - INFO - 
+2024-07-23 14:04:26,802 - root - INFO - Dimensions of data: (35156, 10)
+2024-07-23 14:04:26,802 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:04:26,803 - root - INFO - Column names changed successfully
+2024-07-23 14:04:26,804 - root - INFO - Checking for null values in the data
+2024-07-23 14:04:26,808 - root - INFO - No null values found, processing further...
+2024-07-23 14:04:26,809 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:04:26,810 - root - INFO - Found negative values in column 'active'. Setting those values to zero.
+2024-07-23 14:04:26,812 - root - INFO - Found negative values in column 'new_deaths'. Setting those values to zero.
+2024-07-23 14:04:26,813 - root - INFO - Found negative values in column 'new_recovered'. Setting those values to zero.
+2024-07-23 14:04:26,814 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:04:26,815 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:04:26,875 - root - INFO - Converted full_grouped to Parquet at output
+2024-07-23 14:04:26,875 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 14:04:26,875 - root - INFO - ==============Starting usa_county_wise Eda analysis==============
+2024-07-23 14:04:26,875 - root - INFO - 
+2024-07-23 14:04:26,875 - root - INFO - Dimensions of data: (627920, 14)
+2024-07-23 14:04:26,875 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:04:26,875 - root - INFO - Column names changed successfully
+2024-07-23 14:04:26,889 - root - INFO - Checking for null values in the data
+2024-07-23 14:04:26,889 - root - ERROR - Error in the usa_county_wise_eda(): Validate.fill_null_values() missing 2 required positional arguments: 'data_frame' and 'columns_list_with_fill'
+2024-07-23 14:04:26,890 - root - INFO - Reading the data worldometer is successful
+2024-07-23 14:04:26,890 - root - INFO - ==============Starting worldometer Eda analysis==============
+2024-07-23 14:04:26,891 - root - INFO - 
+2024-07-23 14:04:26,891 - root - INFO - Dimensions of data: (209, 16)
+2024-07-23 14:04:26,892 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:04:26,892 - root - INFO - Column names changed successfully
+2024-07-23 14:04:26,893 - root - INFO - Checking for null values in the data
+2024-07-23 14:04:26,896 - root - INFO - Null values found in ['continent', 'population', 'new_cases', 'total_deaths', 'new_deaths', 'total_recovered', 'new_recovered', 'active_cases', 'serious_critical', 'total_cases_per_million', 'deaths_per_million', 'total_tests', 'tests_per_million', 'who_region'], processing the null values
+2024-07-23 14:04:26,897 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_validations.py:25: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data_frame[column].fillna(fill_value, inplace=True)
+
+2024-07-23 14:04:26,903 - root - INFO - processing done.... null values processed 
+2024-07-23 14:04:26,903 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:04:26,906 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:04:26,940 - root - INFO - Converted worldometer to Parquet at output
+2024-07-23 14:15:52,432 - root - INFO - Starting the main function
+2024-07-23 14:15:53,111 - root - INFO - Reading the data country_wise is successful
+2024-07-23 14:15:53,111 - root - INFO - ==============Starting Country_wise Data analysis==============
+2024-07-23 14:15:53,143 - root - INFO - 
+2024-07-23 14:15:53,143 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 14:15:53,143 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:15:53,143 - root - INFO - Column names changed successfully
+2024-07-23 14:15:53,143 - root - INFO - Checking for null values in the data
+2024-07-23 14:15:53,153 - root - INFO - No null values found, processing further...
+2024-07-23 14:15:53,154 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 14:15:53,157 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:15:53,158 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 14:15:53,161 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 14:15:53,164 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:15:53,169 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:15:53,226 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 14:15:53,226 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 14:15:53,229 - root - INFO - ==============Starting Covid_19_clean Eda analysis==============
+2024-07-23 14:15:53,229 - root - INFO - 
+2024-07-23 14:15:53,229 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 14:15:53,239 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:15:53,240 - root - INFO - Column names changed successfully
+2024-07-23 14:15:53,240 - root - INFO - Checking for null values in the data
+2024-07-23 14:15:53,242 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:108: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df=df['province_state'].fillna('Unknown', inplace=True)
+
+2024-07-23 14:15:53,245 - root - ERROR - Error in the Covid_19_clean_eda: 'NoneType' object has no attribute 'isnull'
+2024-07-23 14:15:53,246 - root - INFO - Reading the data day_wise is successful
+2024-07-23 14:15:53,246 - root - INFO - ==============Starting day_wise Eda analysis==============
+2024-07-23 14:15:53,247 - root - INFO - 
+2024-07-23 14:15:53,247 - root - INFO - Dimensions of data: (188, 12)
+2024-07-23 14:15:53,248 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:15:53,248 - root - INFO - Column names changed successfully
+2024-07-23 14:15:53,248 - root - INFO - Checking for null values in the data
+2024-07-23 14:15:53,251 - root - INFO - No null values found, processing further...
+2024-07-23 14:15:53,252 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:15:53,257 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:15:53,261 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:15:53,262 - root - INFO - Converted day_wise to Parquet at output
+2024-07-23 14:15:53,262 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 14:15:53,262 - root - INFO - ==============Starting full_grouped Eda analysis==============
+2024-07-23 14:15:53,262 - root - INFO - 
+2024-07-23 14:15:53,262 - root - INFO - Dimensions of data: (35156, 10)
+2024-07-23 14:15:53,272 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:15:53,273 - root - INFO - Column names changed successfully
+2024-07-23 14:15:53,274 - root - INFO - Checking for null values in the data
+2024-07-23 14:15:53,280 - root - INFO - No null values found, processing further...
+2024-07-23 14:15:53,280 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:15:53,282 - root - INFO - Found negative values in column 'active'. Setting those values to zero.
+2024-07-23 14:15:53,285 - root - INFO - Found negative values in column 'new_deaths'. Setting those values to zero.
+2024-07-23 14:15:53,287 - root - INFO - Found negative values in column 'new_recovered'. Setting those values to zero.
+2024-07-23 14:15:53,287 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:15:53,287 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:15:53,360 - root - INFO - Converted full_grouped to Parquet at output
+2024-07-23 14:15:53,360 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 14:15:53,360 - root - INFO - ==============Starting usa_county_wise Eda analysis==============
+2024-07-23 14:15:53,360 - root - INFO - 
+2024-07-23 14:15:53,360 - root - INFO - Dimensions of data: (627920, 14)
+2024-07-23 14:15:53,360 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:15:53,360 - root - INFO - Column names changed successfully
+2024-07-23 14:15:53,360 - root - INFO - Checking for null values in the data
+2024-07-23 14:15:53,474 - root - INFO - Null values found in ['fips', 'admin2'], processing the null values
+2024-07-23 14:15:53,554 - root - INFO - processing done.... null values processed 
+2024-07-23 14:15:53,555 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:15:53,557 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:15:53,562 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:15:54,031 - root - INFO - Converted usa_county_wise to Parquet at output
+2024-07-23 14:15:54,031 - root - INFO - Reading the data worldometer is successful
+2024-07-23 14:15:54,031 - root - INFO - ==============Starting worldometer Eda analysis==============
+2024-07-23 14:15:54,031 - root - INFO - 
+2024-07-23 14:15:54,031 - root - INFO - Dimensions of data: (209, 16)
+2024-07-23 14:15:54,031 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 14:15:54,046 - root - INFO - Column names changed successfully
+2024-07-23 14:15:54,046 - root - INFO - Checking for null values in the data
+2024-07-23 14:15:54,046 - root - INFO - Null values found in ['continent', 'population', 'new_cases', 'total_deaths', 'new_deaths', 'total_recovered', 'new_recovered', 'active_cases', 'serious_critical', 'total_cases_per_million', 'deaths_per_million', 'total_tests', 'tests_per_million', 'who_region'], processing the null values
+2024-07-23 14:15:54,077 - root - INFO - processing done.... null values processed 
+2024-07-23 14:15:54,077 - root - INFO - checking for negative values which are not needed
+2024-07-23 14:15:54,077 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 14:15:54,077 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 14:15:54,108 - root - INFO - Converted worldometer to Parquet at output
+2024-07-23 17:18:16,835 - root - INFO - Starting the main function
+2024-07-23 17:18:17,511 - root - INFO - Reading the data country_wise is successful
+2024-07-23 17:18:17,511 - root - INFO - ==============Starting Country_wise Data analysis==============
+2024-07-23 17:18:17,539 - root - INFO - 
+2024-07-23 17:18:17,539 - root - INFO - Dimensions of data: (187, 15)
+2024-07-23 17:18:17,549 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 17:18:17,556 - root - INFO - Column names changed successfully
+2024-07-23 17:18:17,559 - root - INFO - Checking for null values in the data
+2024-07-23 17:18:17,563 - root - INFO - No null values found, processing further...
+2024-07-23 17:18:17,566 - root - INFO - All values in column "deaths" of country_wise are between 0 and 81985000.
+2024-07-23 17:18:17,567 - root - INFO - checking for negative values which are not needed
+2024-07-23 17:18:17,573 - root - INFO - Found negative values in column 'one_week_change'. Setting those values to zero.
+2024-07-23 17:18:17,576 - root - INFO - Found negative values in column 'one_week_percent_increase'. Setting those values to zero.
+2024-07-23 17:18:17,580 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 17:18:17,586 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 17:18:17,749 - root - INFO - Converted country_wise to Parquet at output
+2024-07-23 17:18:17,749 - root - INFO - Reading the data covid_19_clean is successful
+2024-07-23 17:18:17,765 - root - INFO - ==============Starting Covid_19_clean Eda analysis==============
+2024-07-23 17:18:17,765 - root - INFO - 
+2024-07-23 17:18:17,765 - root - INFO - Dimensions of data: (49068, 10)
+2024-07-23 17:18:17,765 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 17:18:17,778 - root - INFO - Column names changed successfully
+2024-07-23 17:18:17,779 - root - INFO - Checking for null values in the data
+2024-07-23 17:18:17,780 - py.warnings - WARNING - c:\Users\balaji.madduri.SENECAGLOBAL\Desktop\Data_Project\src\data_analysis.py:108: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df=df['province_state'].fillna('Unknown', inplace=True)
+
+2024-07-23 17:18:17,782 - root - ERROR - Error in the Covid_19_clean_eda: 'NoneType' object has no attribute 'isnull'
+2024-07-23 17:18:17,783 - root - INFO - Reading the data day_wise is successful
+2024-07-23 17:18:17,784 - root - INFO - ==============Starting day_wise Eda analysis==============
+2024-07-23 17:18:17,784 - root - INFO - 
+2024-07-23 17:18:17,784 - root - INFO - Dimensions of data: (188, 12)
+2024-07-23 17:18:17,784 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 17:18:17,784 - root - INFO - Column names changed successfully
+2024-07-23 17:18:17,787 - root - INFO - Checking for null values in the data
+2024-07-23 17:18:17,791 - root - INFO - No null values found, processing further...
+2024-07-23 17:18:17,793 - root - INFO - checking for negative values which are not needed
+2024-07-23 17:18:17,798 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 17:18:17,798 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 17:18:17,811 - root - INFO - Converted day_wise to Parquet at output
+2024-07-23 17:18:17,812 - root - INFO - Reading the data full_grouped is successful
+2024-07-23 17:18:17,813 - root - INFO - ==============Starting full_grouped Eda analysis==============
+2024-07-23 17:18:17,814 - root - INFO - 
+2024-07-23 17:18:17,815 - root - INFO - Dimensions of data: (35156, 10)
+2024-07-23 17:18:17,815 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 17:18:17,820 - root - INFO - Column names changed successfully
+2024-07-23 17:18:17,820 - root - INFO - Checking for null values in the data
+2024-07-23 17:18:17,828 - root - INFO - No null values found, processing further...
+2024-07-23 17:18:17,828 - root - INFO - checking for negative values which are not needed
+2024-07-23 17:18:17,831 - root - INFO - Found negative values in column 'active'. Setting those values to zero.
+2024-07-23 17:18:17,833 - root - INFO - Found negative values in column 'new_deaths'. Setting those values to zero.
+2024-07-23 17:18:17,835 - root - INFO - Found negative values in column 'new_recovered'. Setting those values to zero.
+2024-07-23 17:18:17,835 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 17:18:17,837 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 17:18:17,905 - root - INFO - Converted full_grouped to Parquet at output
+2024-07-23 17:18:17,905 - root - INFO - Reading the data usa_county_wise is successful
+2024-07-23 17:18:17,905 - root - INFO - ==============Starting usa_county_wise Eda analysis==============
+2024-07-23 17:18:17,905 - root - INFO - 
+2024-07-23 17:18:17,905 - root - INFO - Dimensions of data: (627920, 14)
+2024-07-23 17:18:17,905 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 17:18:17,921 - root - INFO - Column names changed successfully
+2024-07-23 17:18:17,921 - root - INFO - Checking for null values in the data
+2024-07-23 17:18:18,014 - root - INFO - Null values found in ['fips', 'admin2']
+2024-07-23 17:18:18,015 - root - INFO - processing the null values
+2024-07-23 17:18:18,089 - root - INFO - processing done.... null values processed 
+2024-07-23 17:18:18,089 - root - INFO - checking for negative values which are not needed
+2024-07-23 17:18:18,089 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 17:18:18,099 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 17:18:18,566 - root - INFO - Converted usa_county_wise to Parquet at output
+2024-07-23 17:18:18,582 - root - INFO - Reading the data worldometer is successful
+2024-07-23 17:18:18,582 - root - INFO - ==============Starting worldometer Eda analysis==============
+2024-07-23 17:18:18,582 - root - INFO - 
+2024-07-23 17:18:18,582 - root - INFO - Dimensions of data: (209, 16)
+2024-07-23 17:18:18,582 - root - INFO - Changing the column names to the appropriate terms
+2024-07-23 17:18:18,582 - root - INFO - Column names changed successfully
+2024-07-23 17:18:18,582 - root - INFO - Checking for null values in the data
+2024-07-23 17:18:18,588 - root - INFO - Null values found in ['continent', 'population', 'new_cases', 'total_deaths', 'new_deaths', 'total_recovered', 'new_recovered', 'active_cases', 'serious_critical', 'total_cases_per_million', 'deaths_per_million', 'total_tests', 'tests_per_million', 'who_region']
+2024-07-23 17:18:18,589 - root - INFO - processing the null values
+2024-07-23 17:18:18,613 - root - INFO - processing done.... null values processed 
+2024-07-23 17:18:18,613 - root - INFO - checking for negative values which are not needed
+2024-07-23 17:18:18,622 - root - INFO - Preprocessing completed, converting to parquet format
+2024-07-23 17:18:18,629 - root - INFO - File output already exists and will be overwritten.
+2024-07-23 17:18:18,657 - root - INFO - Converted worldometer to Parquet at output

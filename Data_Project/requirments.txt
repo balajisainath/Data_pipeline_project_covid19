@@ -1,0 +1,8 @@
+pandas
+pyarrow
+logging
+great_expectations
+duckdb
+pytest
+boto3
+python_dotenv
